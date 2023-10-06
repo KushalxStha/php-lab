@@ -1,0 +1,1 @@
+<!-- Write a PHP program in which user inputs form data, calculate simple interest and display it in textbox. -->

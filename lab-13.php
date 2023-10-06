@@ -1,0 +1,1 @@
+<!-- Write a PHP program to count the words in the string -->

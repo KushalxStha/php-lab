@@ -1,0 +1,1 @@
+<!-- Create a class named "Bird". Also, create two objects pigeon and crow. Display their colors, habitats and what they eat. -->

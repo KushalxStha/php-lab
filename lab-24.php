@@ -1,0 +1,1 @@
+<!-- Write an example to demonstrate handling multiple exceptions. -->

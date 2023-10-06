@@ -1,0 +1,1 @@
+<!-- Write an example of passing argument and returning value in php -->

@@ -1,0 +1,1 @@
+<!-- Write a program to insert 5 customers record in database. Assume database name and table name yourself. -->
