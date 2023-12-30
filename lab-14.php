@@ -1,20 +1,17 @@
 <!-- Remove specific element by value from an array in PHP -->
 
-<?php
-// Original array
-$myArray = array(1, 2, 3, 4, 5);
+<?php 
 
-// Value to remove
-$valueToRemove = 3;
+function removeByValue($value,&$arr){   // & => This allows function to modify original value directly.
+    if (($key=array_search($value,$arr))!==false){
+        unset($arr[$key]);
+    }
+}
 
-// Use array_filter to remove the element by value
-$filteredArray = array_filter($myArray, function ($element) use ($valueToRemove) {
-    return $element !== $valueToRemove;
-});
+$colors=["red","green","blue"];
+$rcol="blue";
+print_r($colors);
 
-// Convert the filtered array back to indexed keys
-$filteredArray = array_values($filteredArray);
-
-// Display the filtered array
-print_r($filteredArray);
+removeByValue($rcol,$colors);
+print_r($colors);
 ?>
