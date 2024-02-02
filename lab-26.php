@@ -1,9 +1,13 @@
 <!-- Write an example of error suppression. -->
 
 <?php
-// Intentional file error
-$my_file = @file('non_existent_file') or die ("Failed opening file: error was '" . error_get_last()['message'] . "'");
+// Using the @ operator
 
-// Will not issue a notice if the index $key doesn't exist.
-$value = @$cache[$key];
+// Suppressing a file opening error:
+$file = @fopen("nonexistent.txt", "r");
+if (!$file) {
+    echo "Failed to open file. It may not exist.";
+} else {
+    fclose($file);
+}
 ?>
