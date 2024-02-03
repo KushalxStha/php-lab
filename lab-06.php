@@ -16,8 +16,8 @@ function isPalindrome($number)
     return $reverse === $originalNumber;
 }
 
-// Example usage
-$number = 121; // Change this number to test different cases
+$number = (int)readline("Enter a number: ");
+
 if (isPalindrome($number)) {
     echo "$number is a palindrome number.";
 } else {
