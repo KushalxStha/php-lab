@@ -8,11 +8,11 @@ function countWords($str) {
 }
 
 // Input string
-$inputString = "This is a sample sentence. It contains several words.";
+$inputString = readline("Enter a sentence: ");
 
 // Calling function to count words in the string
 $wordCount = countWords($inputString);
 
-echo "Input string: $inputString<br>";
+echo "Input string: $inputString\n";
 echo "Word count: $wordCount";
 ?>

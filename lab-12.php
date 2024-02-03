@@ -13,11 +13,11 @@ function reverseString($str) {
 }
 
 // Input string
-$inputString = "Hello, World!";
+$inputString = readline("Enter a string: ");
 
 // Calling function to reverse the string
 $reversedString = reverseString($inputString);
 
-echo "Original string: $inputString<br>";
+echo "Original string: $inputString\n";
 echo "Reversed string: $reversedString";
 ?>
