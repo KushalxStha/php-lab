@@ -25,7 +25,7 @@ This repository contains a collection of 30 practical lab questions based on dif
 - [lab-16.php]: Paramaterized constructor in PHP.
 - [lab-17.php]: Program in which user inputs form data, calculate simple interest and display it in textbox.
 - [lab-18.php]: Program to insert 5 customers record in database.
-- [lab-19.php]: Program to display customers with specific data. Taking references of table and database from lab-18.
+- [lab-19.php]: Program to display customers with specific data. Table and database refrences from lab-18.
 - [lab-20.php]: Program to set cookie value and display it.
 - [lab-21.php]: Program to start and end session variable.
 - [lab-22.php]: Example of error handlers to print error.
