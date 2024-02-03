@@ -17,8 +17,8 @@ function isArmstrong($number)
     return $sum === $originalNumber;
 }
 
-// Example usage
-$number = 153; // Change this number to test different cases
+$number = (int)readline("Enter a number: ");
+
 if (isArmstrong($number)) {
     echo "$number is an Armstrong number.";
 } else {
