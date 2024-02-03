@@ -18,8 +18,7 @@ function printFibonacci($n)
     }
 }
 
-// Example usage
-$terms = 5; // Change this value to print a different number of terms
+$terms = readline("Enter the required no. of Fibonacci Sequence: ");
 printFibonacci($terms);
 
 ?>

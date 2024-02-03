@@ -6,8 +6,7 @@ function cube($number) {
     return $result;
 }
 
-// Usage example
-$number = 5; 
+$number = readline("Enter a number: ");
 $cubeResult = cube($number);
 
 echo "The cube of $number is: $cubeResult";

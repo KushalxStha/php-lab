@@ -15,8 +15,7 @@ function reverseNumber($number)
     return $reverse;
 }
 
-// Example usage
-$number = 12345; // Change this number to test different cases
+$number = readline("Enter a number: "); 
 $reversedNumber = reverseNumber($number);
 
 echo "Original Number: $number\n";
